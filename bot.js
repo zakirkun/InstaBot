@@ -103,7 +103,7 @@ let runner = async (config) => {
                 }
 
                 let userMedia
-                let chance
+                let chance = 0
                 while (chance++ < 50) {
                     try {
                         userMedia = await ig.mediaInfo(items[idPtr].pk)
