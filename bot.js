@@ -103,7 +103,8 @@ let runner = async (config) => {
                 }
 
                 let userMedia
-                while (true) {
+                let chance
+                while (chance++ < 50) {
                     try {
                         userMedia = await ig.mediaInfo(items[idPtr].pk)
                         if (userMedia.items[0].commenting_disabled_for_viewer || items[idPtr].commenting_disabled_for_viewer) {
