@@ -1,0 +1,6 @@
+node_modules
+errors
+sessions
+status.html
+package-lock.json
+config.json
