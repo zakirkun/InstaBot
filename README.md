@@ -51,7 +51,7 @@ The Instabot Auto Comment on Hashtag is an open-source project and is intended f
 
 3: After running the Instabot Auto Comment on Hashtag, you can watch the output in the console or open the `status.html` file located in the current folder in your browser.
 
-# Android
+## Android
 
 1: Download and install termux from `https://f-droid.org/en/packages/com.termux/`
 
