@@ -6,7 +6,7 @@ let botIntro = async () => {
         return new Promise((resolve) => setTimeout(resolve, ms));
     };
 
-    let con = prompt(chalk.bold.blue("Did you watch the introduction? [Y/N]:"))
+    let con = prompt(chalk.bold.blue("Did you watch the introduction? [Y/N]:")).trim()
     console.clear()
     if (con.toUpperCase() != 'N') {
         // Define the intro string
