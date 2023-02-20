@@ -37,6 +37,9 @@ let printStatus = async () => {
     if (commentStatus.length > 7) {
         commentStatus.shift()
     }
+
+    //The following code will print the output as table in the console
+
     // console.table(basicDetails)
     // console.table(idStatus)
     // console.table(commentStatus)
